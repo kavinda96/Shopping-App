@@ -1,0 +1,12 @@
+{
+    "name": "kavin/api",
+    "autoload": {
+        "psr-4": {
+            "Kavin\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "stripe/stripe-php": "^18.2"
+    }
+}
